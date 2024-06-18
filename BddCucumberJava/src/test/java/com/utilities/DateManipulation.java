@@ -11,7 +11,7 @@ public class DateManipulation {
     public String getTodaysDate(){
         Date date = new Date();
         String strDate = formatter.format(date);
-        System.out.println("Date Format with dd MMMM yyyy : " + strDate);
+        System.out.println("Dates Format with dd MMMM yyyy : " + strDate);
         return  strDate;
     }
 
